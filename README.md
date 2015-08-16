@@ -16,17 +16,17 @@ By creating just a simple `config.json` settings file, you can have:
 
 1. Download this repository
 2. Dump your images into the `images/` folder
-3. Make a `config.json` file inside your repository with the following settings:
+3. Make a `config.json` file inside your repository with the following (self-describing) settings:
 
 ```json
 {
 	"title":"This is my awesome slideshow",
-	"randomize":true,
+	"randomize":false,
 	"delayBetweenImages":10000,
 	"files":[
-		'images/image1.jpeg',
-		'images/image2.jpg',
-		...
+		"images/image1.jpeg",
+		"images/image2.jpg",
+		"however many you want..."
 	]
 }
 ```
